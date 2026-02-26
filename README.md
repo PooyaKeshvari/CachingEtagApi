@@ -31,8 +31,3 @@ dotnet run --project src/Caching-And-ETag-Api/Caching.Etag.Api.csproj
 - `Controllers/PricesController.cs`
 - `Services/PriceQueryService.cs`
 - `Store/InMemoryPriceStore.cs`
-
-## Interview Talking Points
-- Difference between application cache and HTTP cache semantics.
-- Why ETag + conditional requests reduce payload and latency.
-- Cache invalidation strategy and version-based ETag construction.
